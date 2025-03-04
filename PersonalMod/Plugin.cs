@@ -24,7 +24,7 @@ public class Plugin : BaseUnityPlugin
 
         try
         {
-            string bundlePath = Path.Combine(AssetsFolderPath, "beyondthesea");
+            string bundlePath = Path.Combine(AssetsFolderPath, "resources");
             AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
             if (bundle == null)
             {
